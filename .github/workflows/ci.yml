@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install build deps
-        run: sudo apt-get install -y texinfo libmpc-dev libmpfr-dev libgmp-dev libgc-dev libffi-dev libunistring-dev
+        run: sudo apt-get install -y texinfo libmpc-dev libmpfr-dev libgmp-dev libgc-dev libffi-dev libunistring-dev cmake
 
       - name: Run build script
         run: |
